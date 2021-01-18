@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\pdsa.csproj": {}
+    "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\pdsa.csproj": {
+    "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\pdsa.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa.csproj",
         "projectName": "pdsa",
-        "projectPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\pdsa.csproj",
+        "projectPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\obj\\",
+        "outputPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,24 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
