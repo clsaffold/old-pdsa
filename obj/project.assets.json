@@ -8917,11 +8917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsatracker.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\pdsatracker.csproj",
       "projectName": "pdsatracker",
-      "projectPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsatracker.csproj",
+      "projectPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\pdsatracker.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\obj\\",
+      "outputPath": "C:\\Users\\HP\\lc101\\liftoff\\pdsa\\pdsa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

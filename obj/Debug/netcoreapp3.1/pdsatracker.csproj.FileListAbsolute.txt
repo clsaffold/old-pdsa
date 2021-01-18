@@ -176,3 +176,12 @@ C:\Users\HP\lc101\liftoff\pdsa\obj\Debug\netcoreapp3.1\Razor\Views\Pdsas\Delete.
 C:\Users\HP\lc101\liftoff\pdsa\obj\Debug\netcoreapp3.1\Razor\Views\Pdsas\Details.cshtml.g.cs
 C:\Users\HP\lc101\liftoff\pdsa\obj\Debug\netcoreapp3.1\Razor\Views\Pdsas\Edit.cshtml.g.cs
 C:\Users\HP\lc101\liftoff\pdsa\obj\Debug\netcoreapp3.1\Razor\Views\Pdsas\Index.cshtml.g.cs
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.csprojAssemblyReference.cache
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.AssemblyInfoInputs.cache
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.AssemblyInfo.cs
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.csproj.CoreCompileInputs.cache
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.RazorAssemblyInfo.cache
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.RazorAssemblyInfo.cs
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.dll
+C:\Users\HP\lc101\liftoff\pdsa\pdsa\obj\Debug\netcoreapp3.1\pdsatracker.pdb
