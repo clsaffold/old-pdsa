@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace pdsatracker.Data
 {
-    public class pdsatrackerContext : IdentityDbContext<IdentityUser>
+    public class PdsatrackerContext : IdentityDbContext<IdentityUser>
     {
-        public pdsatrackerContext(DbContextOptions<pdsatrackerContext> options)
+        public PdsatrackerContext(DbContextOptions<PdsatrackerContext> options)
             : base(options)
         {
         }
