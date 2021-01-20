@@ -10,16 +10,10 @@
     ViewData["Title"] = "Create";
 }
 
-@{
-    ViewData["Title"] = "Home Page";
-}
-
 @if (SignInManager.IsSignedIn(User))
 {
-    <h1>Create</h1>
+    <h1>Create New PDSA</h1>
 
-    <h4>Pdsa</h4>
-    <hr />
     <div class="row">
         <div class="col-md-4">
             <form asp-action="Create">
