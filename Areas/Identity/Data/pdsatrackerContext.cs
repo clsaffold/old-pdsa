@@ -8,6 +8,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace pdsatracker.Data
 {
+    public class PdsatrackerUser : IdentityUser
+    {
+
+    }
     public class PdsatrackerContext : IdentityDbContext<IdentityUser>
     {
         public PdsatrackerContext(DbContextOptions<PdsatrackerContext> options)
