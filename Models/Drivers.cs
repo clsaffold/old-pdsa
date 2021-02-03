@@ -13,10 +13,10 @@ namespace pdsatracker.Models
         public Drivers()
         {
         }
-        public Drivers(string name)
+        public Drivers(string name, string description)
         {
             Name = name;
-            Description = Description;
+            Description = description;
         }
 
     }
