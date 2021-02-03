@@ -15,12 +15,12 @@ namespace pdsatracker.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<pdsatrackerContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("pdsatrackerContextConnection")));
+                services.AddDbContext<PdsatrackerContext>(options =>
+                    options.UseMySql(
+                        context.Configuration.GetConnectionString("PdsatrackerContextConnection")));
 
                 services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<pdsatrackerContext>();
+                    .AddEntityFrameworkStores<PdsatrackerContext>();
             });
         }
     }

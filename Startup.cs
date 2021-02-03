@@ -25,16 +25,17 @@ namespace pdsa
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<PdsaTracker.Data.PdsaDbContext>(options =>
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
-        }
+            services.AddRazorPages();
+            services.AddDbContext<PdsaTracker.Data.PdsaDbContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        }
+            // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseDatabaseErrorPage();
             }
             else
             {
@@ -47,6 +48,7 @@ namespace pdsa
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -54,6 +56,7 @@ namespace pdsa
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }
